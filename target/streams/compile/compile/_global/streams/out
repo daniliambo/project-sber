@@ -1,0 +1,10 @@
+[0m[[0m[0mdebug[0m] [0m[0mAcquiring lock on file /Users/dev.daniil.bakushkin/Desktop/Sber/enki2/project/target/.sbt-compilation-infos/enki-compile/.sbt-idea-lock ...[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/dev.daniil.bakushkin/Desktop/Sber/enki2/src/main/scala/ru/sberbank/bigdata/enki/localcluster/LocalClusterAPI.scala:95:30: abstract type pattern reflect.runtime.universe.MethodSymbol is unchecked since it is eliminated by erasure[0m
+[0m[[0m[33mwarn[0m] [0m[0m        _.collect { case ms: MethodSymbol => ms }[0m
+[0m[[0m[33mwarn[0m] [0m[0m                             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/dev.daniil.bakushkin/Desktop/Sber/enki2/src/main/scala/ru/sberbank/bigdata/enki/plan/printer/Printer.scala:101:5: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following inputs: BinaryNode(), LeafNode(), UnaryNode()[0m
+[0m[[0m[33mwarn[0m] [0m[0m    node match {[0m
+[0m[[0m[33mwarn[0m] [0m[0m    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mtwo warnings found[0m
+[0m[[0m[0mdebug[0m] [0m[0mReleasing lock on file /Users/dev.daniil.bakushkin/Desktop/Sber/enki2/project/target/.sbt-compilation-infos/enki-compile/.sbt-idea-lock.[0m

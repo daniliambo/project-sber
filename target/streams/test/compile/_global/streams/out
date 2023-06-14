@@ -1,0 +1,63 @@
+[0m[[0m[0mdebug[0m] [0m[0mAcquiring lock on file /Users/dev.daniil.bakushkin/Desktop/Sber/enki2/project/target/.sbt-compilation-infos/enki-test/.sbt-idea-lock ...[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/dev.daniil.bakushkin/Desktop/Sber/enki2/src/test/scala/generatedata/generators/DataGenerators.scala:27:5: a pure expression does nothing in statement position; you may be omitting necessary parentheses[0m
+[0m[[0m[33mwarn[0m] [0m[0m    params[0m
+[0m[[0m[33mwarn[0m] [0m[0m    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/dev.daniil.bakushkin/Desktop/Sber/enki2/src/test/scala/generatedata/generators/DataGenerators.scala:36:18: fruitless type test: a value of type generatedata.graph.constraint.Constraint cannot also be a generatedata.generators.params.paramsFilterJoin.param.JoinParams[0m
+[0m[[0m[33mwarn[0m] [0m[0m      case join: JoinParams   => generator[0m
+[0m[[0m[33mwarn[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/dev.daniil.bakushkin/Desktop/Sber/enki2/src/test/scala/generatedata/generators/DataGenerators.scala:36:18: pattern type is incompatible with expected type;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : generatedata.generators.params.paramsFilterJoin.param.JoinParams[0m
+[0m[[0m[31merror[0m] [0m[0m required: generatedata.graph.constraint.Constraint[0m
+[0m[[0m[31merror[0m] [0m[0m      case join: JoinParams   => generator[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/dev.daniil.bakushkin/Desktop/Sber/enki2/src/test/scala/generatedata/generators/DataGenerators.scala:37:19: fruitless type test: a value of type generatedata.graph.constraint.Constraint cannot also be a generatedata.generators.params.SetOpParams[0m
+[0m[[0m[33mwarn[0m] [0m[0m      case setop: SetOpParams => generator[0m
+[0m[[0m[33mwarn[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/dev.daniil.bakushkin/Desktop/Sber/enki2/src/test/scala/generatedata/generators/DataGenerators.scala:37:19: pattern type is incompatible with expected type;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : generatedata.generators.params.SetOpParams[0m
+[0m[[0m[31merror[0m] [0m[0m required: generatedata.graph.constraint.Constraint[0m
+[0m[[0m[31merror[0m] [0m[0m      case setop: SetOpParams => generator[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/dev.daniil.bakushkin/Desktop/Sber/enki2/src/test/scala/generatedata/generators/DataGenerators.scala:38:20: fruitless type test: a value of type generatedata.graph.constraint.Constraint cannot also be a generatedata.generators.params.paramsFilterJoin.param.FilterParams[0m
+[0m[[0m[33mwarn[0m] [0m[0m      case filter: FilterParams =>[0m
+[0m[[0m[33mwarn[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/dev.daniil.bakushkin/Desktop/Sber/enki2/src/test/scala/generatedata/generators/DataGenerators.scala:38:20: pattern type is incompatible with expected type;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : generatedata.generators.params.paramsFilterJoin.param.FilterParams[0m
+[0m[[0m[31merror[0m] [0m[0m required: generatedata.graph.constraint.Constraint[0m
+[0m[[0m[31merror[0m] [0m[0m      case filter: FilterParams =>[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/dev.daniil.bakushkin/Desktop/Sber/enki2/src/test/scala/generatedata/generators/DataGenerators.scala:42:24: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : scala.collection.mutable.Set[org.scalacheck.Gen[org.apache.spark.sql.Row]][0m
+[0m[[0m[31merror[0m] [0m[0m required: org.scalacheck.Gen[org.apache.spark.sql.Row][0m
+[0m[[0m[31merror[0m] [0m[0m    val data = getData(updatedGenerator, globalParams.n)[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/dev.daniil.bakushkin/Desktop/Sber/enki2/src/test/scala/generatedata/generators/DataGenerators.scala:46:53: not found: value result[0m
+[0m[[0m[31merror[0m] [0m[0mError occurred in an application involving default arguments.[0m
+[0m[[0m[31merror[0m] [0m[0m    val rdd        = spark.sparkContext.parallelize(result._1)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/dev.daniil.bakushkin/Desktop/Sber/enki2/src/test/scala/generatedata/generators/DataGenerators.scala:47:49: not found: value result[0m
+[0m[[0m[31merror[0m] [0m[0m    val dfFromData = spark.createDataFrame(rdd, result._2)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/dev.daniil.bakushkin/Desktop/Sber/enki2/src/test/scala/generatedata/graph/TraverseNode.scala:41:72: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : (generatedata.graph.constraint.constraintOnTables.ConstraintSetOperation, ru.sberbank.bigdata.enki.plan.nodes.SetOperationNode)[0m
+[0m[[0m[31merror[0m] [0m[0m required: generatedata.graph.constraint.Constraint[0m
+[0m[[0m[31merror[0m] [0m[0m        dfsNode(node.children.toSet, constraintsPassDown + (constraint -> node), mapOfConstraints)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/dev.daniil.bakushkin/Desktop/Sber/enki2/src/test/scala/generatedata/graph/TraverseNode.scala:51:75: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : (generatedata.graph.constraint.constraintOnTables.ConstraintJoin, ru.sberbank.bigdata.enki.plan.nodes.Node)[0m
+[0m[[0m[31merror[0m] [0m[0m required: generatedata.graph.constraint.Constraint[0m
+[0m[[0m[31merror[0m] [0m[0m          dfsNode(join.node.children.toSet, constraintsPassDown + (constr -> node), mapOfConstraints)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/dev.daniil.bakushkin/Desktop/Sber/enki2/src/test/scala/generatedata/graph/TraverseNode.scala:52:75: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : (generatedata.graph.constraint.constraintOnTables.ConstraintJoin, ru.sberbank.bigdata.enki.plan.nodes.Node)[0m
+[0m[[0m[31merror[0m] [0m[0m required: generatedata.graph.constraint.Constraint[0m
+[0m[[0m[31merror[0m] [0m[0m          constraintsForMainNode += (constr                               -> node)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/dev.daniil.bakushkin/Desktop/Sber/enki2/src/test/scala/generatedata/graph/TraverseNode.scala:63:68: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : (generatedata.graph.constraint.constraintOnTables.ConstraintFilter, ru.sberbank.bigdata.enki.plan.nodes.Node)[0m
+[0m[[0m[31merror[0m] [0m[0m required: generatedata.graph.constraint.Constraint[0m
+[0m[[0m[31merror[0m] [0m[0m        dfsNode(node.children.toSet, constraintsPassDown + (constr -> node), mapOfConstraints)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                   ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mfour warnings found[0m
+[0m[[0m[31merror[0m] [0m[0m10 errors found[0m
+[0m[[0m[0mdebug[0m] [0m[0mReleasing lock on file /Users/dev.daniil.bakushkin/Desktop/Sber/enki2/project/target/.sbt-compilation-infos/enki-test/.sbt-idea-lock.[0m
