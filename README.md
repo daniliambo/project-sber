@@ -26,12 +26,12 @@
 
 **Общий вид:**
 
-   <img alt="Image alt" height="300" src="img/dependencies.png" width="300"/>
+   <img alt="Image alt" height="300" src="dependencies.png" width="300"/>
 
 Каждый step состоит из своего графа, который уже состоит из sql-операций по типу Join, Union, select и т.д. Нам интересны Join, Union, Select, т.к. при проходе по графу мы будем сохранять ограничения для них и уже в зависимости от ограничений генерировать данные для SourceTableNode.
 
 **Граф вычислений:**
-   <img alt="Image alt" height="300" src="img/graph.png" width="600"/>
+   <img alt="Image alt" height="300" src="graph.png" width="600"/>
 
 1. **Tree of Steps** – наш граф, построенный с учетом топологической сортировки
 2. Каждая вершина в этом графе – **Tree of Nodes** – Sql-операции, который делаются над этим степом
